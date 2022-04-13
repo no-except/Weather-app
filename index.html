@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecast</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="title">
+               Weather Forecast
+            </div> 
+            <div class="input">
+                <input  name="name" type="text" placeholder="city">
+                <div class="im">
+                    <img class="im" src="img/search.png" alt="">
+                </div>
+            </div>
+            <div class="container1">
+                <div class="info">
+                     <div class="col1">
+                        <iframe class="im1" src="https://giphy.com/embed/FAFo1M7EC4gRZ4HETH" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hello-hi-henlo-FAFo1M7EC4gRZ4HETH">via GIPHY</a></p>
+                    </div>
+                    <div class="col2">
+                        <div class="city">
+                            City
+                        </div>
+                        <div class="maininfo">
+                            Main Info
+                        </div>
+                        <div class="icons">
+                            <div class="items"><img src="img/temperature.png" alt=""></div>
+                            <div class="items"><img src="img/humidity.png" alt=""></div>
+                            <div class="items"><img src="img/wind.png" alt=""></div>
+                        </div>
+                        <div class="inf">
+                            Info
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
