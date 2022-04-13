@@ -55,7 +55,6 @@ function Clear(){
 item__temperature.addEventListener('click',()=>{
    Clear();
     item__temperature.classList.add('active');
-    console.log(temperature);
     if (temperature!=-1){
         temp.textContent = `${Math.round(temperature*10)/10} C°`;
     }
